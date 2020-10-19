@@ -1,0 +1,72 @@
+{
+    "workbench.colorTheme": "Omni",
+    "workbench.iconTheme": "material-icon-theme",
+    "explorer.confirmDelete": false,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 16,
+    "explorer.compactFolders": false,
+    "editor.renderLineHighlight": "gutter",
+    "workbench.editor.labelFormat": "short",
+    "extensions.ignoreRecommendations": true,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "breadcrumbs.enabled": true,
+    "editor.parameterHints.enabled": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "editor.semanticHighlighting.enabled": false,
+    "editor.tabSize": 4,
+    "python.pythonPath": "venv\\Scripts\\python.exe",
+    "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
+    "code-runner.executorMap": {
+        "javascript": "node",
+        "php": "C:\\xampp\\php\\php.exe",
+        "python": "venv\\Scripts\\python.exe -u",
+        "powershell": "powershell -ExecutionPolicy ByPass -File",
+        "bat": "cmd /c",
+        "shellscript": "bash"
+    },
+    "code-runner.clearPreviousOutput": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.minimap.enabled": true,
+    "editor.formatOnSave": true,
+    "files.associations": {
+        "*.html": "html",
+        "**/templates/*.html": "django-html",
+        "**/templates/*": "django-txt",
+        "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+    },
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django",
+        "--errors-only"
+    ],
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "material-icon-theme.folders.associations": {
+        "infra": "app",
+        "entities": "class",
+        "schemas": "class",
+        "typeorm": "database",
+        "repositories": "mappings",
+        "http": "container",
+        "migrations": "tools",
+        "modules": "components",
+        "implementation": "core",
+        "dtos": "typescript",
+        "fakes": "mock",
+        "venv": "python"
+    },
+    "material-icon-theme.files.associations": {
+        "ormconfig.json": "database",
+        "tsconfig.json": "tune",
+    },
+    "todo-tree.tree.showScanModeButton": false,
+}
