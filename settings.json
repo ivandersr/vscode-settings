@@ -36,7 +36,7 @@
     "editor.formatOnSave": true,
     "files.associations": {
         "*.html": "html",
-        "**/templates/*.html": "django-html",
+        "**/templates/**/*.html": "django-html",
         "**/templates/*": "django-txt",
         "**/requirements{/**,*}.{txt,in}": "pip-requirements"
     },
