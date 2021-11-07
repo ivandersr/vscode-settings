@@ -20,38 +20,9 @@
     ],
     "editor.semanticHighlighting.enabled": false,
     "editor.tabSize": 2,
-    "[python]": {
-        "editor.tabSize": 4
-    },
-    "python.pythonPath": "venv\\Scripts\\python.exe",
-    "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
-    "code-runner.executorMap": {
-        "javascript": "node",
-        "php": "C:\\xampp\\php\\php.exe",
-        "python": "venv\\Scripts\\python.exe -u",
-        "powershell": "powershell -ExecutionPolicy ByPass -File",
-        "bat": "cmd /c",
-        "shellscript": "bash"
-    },
-    "code-runner.clearPreviousOutput": true,
-    "code-runner.ignoreSelection": true,
-    "code-runner.runInTerminal": true,
     "workbench.startupEditor": "newUntitledFile",
     "editor.minimap.enabled": true,
     "editor.formatOnSave": true,
-    "files.associations": {
-        "*.html": "html",
-        "**/templates/**/*.html": "django-html",
-        "**/templates/*": "django-txt",
-        "**/requirements{/**,*}.{txt,in}": "pip-requirements"
-    },
-    "emmet.includeLanguages": {
-        "django-html": "html"
-    },
-    "python.linting.pylintArgs": [
-        "--load-plugins=pylint_django",
-        "--errors-only"
-    ],
     "terminal.integrated.copyOnSelection": true,
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.cursorStyle": "line",
