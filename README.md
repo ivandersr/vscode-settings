@@ -4,7 +4,6 @@ Basic settings I use for VSCode, including icons and color themes, fonts, rulers
 
 ### Extensions
 - Color Highlight by Sergii Naumove
-- Django by Baptiste Darthenay
 - Material Icon Theme by Philipp Kief
 - Omni by Rocketseat
 - Todo tree by Gruntfuggly
